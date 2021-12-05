@@ -1,0 +1,74 @@
+.topnav{
+    margin: -8px;
+    background-color: #333;
+    overflow:hidden;
+    border:solid 2px none;
+    display:flex;   
+    flex-direction: column;
+}
+#navbar{
+    position: relative;
+    margin: auto;
+}
+.topnav a.active{
+ background-color:steelblue;
+ color:floralwhite;
+}
+
+.topnav a:hover{
+    background-color:slategray;
+    color:white;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:gold;
+    font-size: 20px;
+}
+.heading{
+    color:white;
+    text-align: center;
+    font-size: 100px;
+}
+div.email{
+    font-family: 'Courier New', monospace;
+    font-size: 50px;
+    position: absolute;
+    top:200px;
+    left: 320px;
+    color:white;
+
+}
+div.myself{
+    font-family: 'Courier New', monospace;
+    font-size: 35px;
+    position: absolute;
+    text-align: center;
+    top:130px;
+    color:white;
+
+}
+div.contentdata{
+    font-family: 'Courier New', monospace;
+    font-size: 25px;
+    position: absolute;
+    left:110px;
+    top: 180px;
+    color:white;
+
+}
+div.contentheading{
+    font-family: 'Courier New', monospace;
+    font-size: 60px;
+    text-align: center;
+    top: 50px;
+    color:white;
+}
+body {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/17c1ca63393359.5ab4ecb5ec008.gif");
+    background-size: cover;
+    font-family: 'Courier New', monospace;
+}
+

@@ -1,0 +1,242 @@
+.topnav{
+    margin: -8px;
+    background-color: #333;
+    overflow:hidden;
+    border:solid 2px none;
+    display:flex;   
+    flex-direction: column;
+}
+#navbar{
+    position: relative;
+    margin: auto;
+}
+.topnav a.active{
+ background-color:steelblue;
+ color:floralwhite;
+}
+
+.topnav a:hover{
+    background-color:slategray;
+    color:white;
+}
+
+div.thriller{
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 200px;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+div.comedy{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+div.darkcomedy{
+    color: white;
+    position: absolute;
+    top: 350px;
+    right: 280px;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+div.romantic{
+    color: white;
+    position: absolute;
+    bottom: 150px;
+    right: 300px;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+div.action{
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+div.fiction{
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+div.drama{
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:gold;
+    font-size: 20px;
+}
+.heading{
+    color:white;
+    text-align: center;
+    font-size: 100px;
+}
+.para{
+    color:white;
+    text-align:center;
+}
+body {
+    background-image: url("https://cutewallpaper.org/21/black-gif-background/Black-gif-background-3-GIF-Images-Download.gif");
+    background-size: cover;
+    font-family: 'Courier New', monospace;
+}
+.comedy{
+    position: relative;
+    display: block;
+    width: 7em;
+}
+.comedy::after{
+    content: attr(data-tt);
+    background:#333;
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    position:absolute;
+    display: none;
+    left: 7em;
+    top : 0;
+    width: 8em;
+}
+.comedy:hover::after{
+    display: block;
+}
+
+.thriller{
+    position: relative;
+    display: block;
+    width: 7em;
+}
+.thriller::after{
+    content: attr(data-tt);
+    background:#333;
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    position:absolute;
+    display: none;
+    left: 7em;
+    top : 0;
+    width: 8em;
+}
+.thriller:hover::after{
+    display: block;
+}
+.drama{
+    position: relative;
+    display: block;
+    width: 7em;
+}
+.drama::after{
+    content: attr(data-tt);
+    background:#333;
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    position:absolute;
+    display: none;
+    left: 7em;
+    top : 0;
+    width: 8em;
+}
+.drama:hover::after{
+    display: block;
+}
+.action{
+    position: relative;
+    display: block;
+    width: 7em;
+}
+.action::after{
+    content: attr(data-tt);
+    background:#333;
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    position:absolute;
+    display: none;
+    left: 7em;
+    top : -5em;
+    width: 8em;
+}
+.action:hover::after{
+    display: block;
+}
+.romantic{
+    position: relative;
+    display: block;
+    width: 7em;
+}
+.romantic::after{
+    content: attr(data-tt);
+    background:#333;
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    position:absolute;
+    display: none;
+    left: 7.5em;
+    top : -0.7em;
+    width: 8em;
+}
+.romantic:hover::after{
+    display: block;
+}
+.darkcomedy{
+    position: relative;
+    display: block;
+    width: 7em;
+}
+.darkcomedy::after{
+    content: attr(data-tt);
+    background:#333;
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    position:absolute;
+    display: none;
+    left: 7.5em;
+    top : -2.5em;
+    width: 8em;
+}
+.darkcomedy:hover::after{
+    display: block;
+}
+.fiction{
+    position: relative;
+    display: block;
+    width: 7em;
+}
+.fiction::after{
+    content: attr(data-tt);
+    background:#333;
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    position:absolute;
+    display: none;
+    right: 7.5em;
+    top : -2.5em;
+    width: 7em;
+}
+.fiction:hover::after{
+    display: block;
+}
