@@ -1,3 +1,10 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
 .topnav{
     margin: -8px;
     background-color: #333;
